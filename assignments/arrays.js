@@ -66,7 +66,7 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 
 for (let i = 0; i < inventory.length; i++) {
     if (inventory[i].id === 33) {
-        console.log(`Car 33 is a ${inventory[i].car_year} ${inventory[i].car_model}`);
+        console.log(`Car 33 is a ${inventory[i].car_year} ${inventory[i].car_model} ${inventory[i].car_make}`);
     }
 }
 
